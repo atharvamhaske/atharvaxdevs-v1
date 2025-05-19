@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import {
   Briefcase,
-  MapPin,
+  
   Code,
   Calendar,
   Building,
@@ -23,7 +23,7 @@ const experiences = [
     skills: ["React", "TypeScript", "Python", "Next.Js", "Node.Js", "Tailwind CSS", "Framer Motion", "APIs", "Metamask"],
     description:
       "Web app which connects doctors and patients which makes all Paper work to almost zero, Secure user authentication using blockchain and profile management. Use of On-chain  using HyperLedger Fabric.",
-    repo: "https://github.com/atharvamhaske/E-Healthwave",
+
   },
 
   {
@@ -35,7 +35,6 @@ const experiences = [
     skills: [ "JavaScript", "NodeJs", "Chalk", "Bash",  "zShell", "npm package", ],
     description:
      "A beautiful terminal-based portfolio with interactive menu, built with Node.js, Package available on npm packages named atharva-portfolio-cli,.",
-    repo: "https://github.com/atharvamhaske/atharva-portfoilio-cli",
   },
 ];
 
@@ -156,19 +155,14 @@ export default function WorkExperience() {
 
                         {/* Achievements Button - Could link to detailed view */}
                         <div className="pt-2">
-                          {exp.repo && (
-                            <motion.a
-                              href={exp.repo}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-sm text-primary flex items-center"
-                              whileHover={{ x: 5 }}
-                              whileTap={{ scale: 0.95 }}
-                            >
-                              View Repo
-                              <ArrowRight className="h-3.5 w-3.5 ml-1" />
-                            </motion.a>
-                          )}
+                          <motion.button
+                            className="text-sm text-primary flex items-center"
+                            whileHover={{ x: 5 }}
+                            whileTap={{ scale: 0.95 }}
+                          >
+                            View Repo
+                            <ArrowRight className="h-3.5 w-3.5 ml-1" />
+                          </motion.button>
                         </div>
                       </div>
                     </div>

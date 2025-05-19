@@ -36,7 +36,7 @@ export default function RevealText() {
     const segments = lines[lineIdx];
     // Find which segment the charIdx is in
     let acc = 0;
-    let rendered = [];
+    const rendered = [];
     let found = false;
     for (let i = 0; i < segments.length; i++) {
       const seg = segments[i];

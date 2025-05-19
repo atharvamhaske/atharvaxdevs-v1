@@ -2,10 +2,9 @@
 
 import { motion } from "motion/react";
 import { Github, Linkedin, Twitter } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+
 import Clock from "../root/Clock";
-import { cn } from "@/lib/utils";
+
 import RevealText from "./RevealText";
 import RevealTopText from "./RevealTopText";
 
@@ -87,7 +86,7 @@ export default function Hero() {
             className="max-w-[700px] text-m md:text-m font-mono !text-gray-400 dark:text-lime-50 mt-4 ml-8"
             variants={item}
           >
-            Hey, I'm Atharva a passionate  full-stack developer who thrives on building meaningful & useful web apps. I love turning bold ideas into real-world solutions currently building SaaS platforms. 
+            Hey, I&aposm Atharva a passionate  full-stack developer who thrives on building meaningful & useful web apps. I love turning bold ideas into real-world solutions currently building SaaS platforms. 
             <br />
             Have an idea or want to build something ? DMs are always open!
           </motion.p>
