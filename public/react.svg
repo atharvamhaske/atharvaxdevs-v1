@@ -1,0 +1,8 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="16" cy="16" r="2.5" fill="#61DAFB"/>
+  <g stroke="#61DAFB" stroke-width="2">
+    <ellipse rx="13" ry="5.5" transform="matrix(.866 .5 -.866 .5 16 16)"/>
+    <ellipse rx="13" ry="5.5" transform="matrix(-.866 .5 .866 .5 16 16)"/>
+    <ellipse rx="13" ry="5.5" transform="matrix(0 1 1 0 16 16)"/>
+  </g>
+</svg>
