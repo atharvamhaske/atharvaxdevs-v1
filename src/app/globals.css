@@ -309,3 +309,11 @@
 .techstack-corner.tr .arc { animation-delay: 0.5s; }
 .techstack-corner.br .arc { animation-delay: 1s; }
 .techstack-corner.bl .arc { animation-delay: 1.5s; }
+
+html, body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Webkit */
+}
