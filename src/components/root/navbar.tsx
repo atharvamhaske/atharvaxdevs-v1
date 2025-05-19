@@ -8,7 +8,7 @@ import ThemeToggle from "./theme-toggle";
 import { Avatar } from "@radix-ui/react-avatar";
 import { AvatarFallback, AvatarImage } from "../ui/avatar";
 import Clock from "../root/Clock";
-import Particles from "react-tsparticles";
+import { Particles } from '@tsparticles/react';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
