@@ -30,19 +30,19 @@ export default function Footer() {
     },
   ];
 
-  const footerLinks = [
-    { label: "Home", href: "/" },
-    { label: "Projects", href: "/projects" },
-    { label: "Contact", href: "/contact" },
-  ];
+  // const footerLinks = [
+  //   { label: "Home", href: "/" },
+  //   { label: "Projects", href: "/projects" },
+  //   { label: "Contact", href: "/contact" },
+  // ];
 
   return (
     <footer className="w-full py-6">
       <div className="max-w-xl mx-auto px-4 text-center">
-        <div className="flex flex-col items-center space-y-6">
+        <div className="flex flex-col items-center space-y-4">
           {/* Logo */}
           <motion.div
-            className="font-heading tracking-wider text-2xl font-semibold opacity-90"
+            className="font-heading tracking-wider text-xl font-semibold opacity-90"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -50,7 +50,7 @@ export default function Footer() {
           </motion.div>
 
           {/* Navigation */}
-          <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+          {/* <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             {footerLinks.map((link) => (
               <motion.div
                 key={link.label}
@@ -65,7 +65,7 @@ export default function Footer() {
                 </Link>
               </motion.div>
             ))}
-          </nav>
+          </nav> */}
 
           {/* Social Links */}
           <div className="flex space-x-4">

@@ -20,7 +20,7 @@ const Loader = ({ text = "loading projects data..." }: { text?: string }) => {
         style={{
           fontFamily: '"Fira Mono", "Consolas", "Menlo", monospace',
           fontSize: "1.5rem",
-          color: "#ff3c3c",
+          color: "#22c55e",
           background: "#000",
         }}
       >

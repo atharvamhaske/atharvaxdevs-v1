@@ -7,7 +7,7 @@ import Link from "next/link";
 import ThemeToggle from "./theme-toggle";
 import { Avatar } from "@radix-ui/react-avatar";
 import { AvatarFallback, AvatarImage } from "../ui/avatar";
-import Clock from "../root/Clock";
+import Clock2 from "../root/Clock2";
 import { Particles } from '@tsparticles/react';
 
 export default function Navbar() {
@@ -45,7 +45,7 @@ export default function Navbar() {
           className={cn(
             "flex items-center justify-between",
             "rounded-2xl px-4 py-2",
-            "bg-white dark:bg-background/90 backdrop-blur-lg",
+            "bg-white/80 dark:bg-background/80 backdrop-blur-lg",
             "border border-primary/5 dark:border-primary/10",
             "shadow-[0_5px_30px_rgba(0,0,0,0.03)] dark:shadow-[0_5px_30px_rgba(255,255,255,0.02)]"
           )}
@@ -62,12 +62,12 @@ export default function Navbar() {
               />
               <AvatarFallback></AvatarFallback>
             </Avatar>
-            <span className="font-['Nothing_You_Could_Do']  hidden md:text-3xl">ATHARVA</span>
+            <span className="font-['Nothing_You_Could_Do'] text-2xl">ATHARVA</span>
           </Link>
 
           {/* Clock in the center */}
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-            <Clock className="text-lg" showLocation={false} />
+            <Clock2 className="text-s opacity-70" showLocation={false}  />
           </div>
 
           {/* Desktop Menu */}
@@ -76,7 +76,7 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="hover-underline text-2xl font-['Nanum_Pen_Script'] font-bold italic relative group text-black dark:text-white"
+                className="hover-underline font-mono text-m dark:!text-gray-100 text-black relative group"
               >
                 {item.text}
               </Link>

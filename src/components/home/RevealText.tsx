@@ -69,14 +69,14 @@ export default function RevealText() {
       acc = nextAcc;
     }
     return (
-      <span className="text-xl font-['Anton'] tracking-wider px-6 py-6 rounded-full text-gray-800 opacity-60 dark:text-white drop-shadow-red-50 min-h-[2.5rem] inline-block">
+      <span className="text font-['Anton'] tracking-wider px-6 py-6 rounded-full text-gray-800 opacity-60 dark:text-white drop-shadow-red-50 min-h-[2.5rem] inline-block">
         {rendered}
         <span className="animate-pulse">|</span>
       </span>
     );
   }
   return (
-    <span className="text-xl font-['Anton'] tracking-wider px-6 py-6 rounded-full text-gray-800 opacity-60 dark:text-white drop-shadow-red-50 min-h-[2.5rem] inline-block">
+    <span className="text font-['Anton'] tracking-wider px-6 py-6 rounded-full text-gray-800 opacity-60 dark:text-white drop-shadow-red-50 min-h-[2.5rem] inline-block">
       {displayed}
       <span className="animate-pulse">|</span>
     </span>

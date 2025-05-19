@@ -71,7 +71,7 @@ export default function Hero() {
         >
           {/* Main Title */}
           <motion.h1
-            className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold bg-gradient-to-bl dark:text-transparent bg-clip-text dark:from-gray-200 dark:to-purple-200 text-black"
+            className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold bg-gradient-to-bl  bg-clip-text dark:text-white text-black"
             variants={item}
           >
             <RevealTopText /> <br className="hidden sm:inline" />
@@ -86,7 +86,7 @@ export default function Hero() {
             className="max-w-[700px] text-m md:text-m font-mono !text-gray-400 dark:text-lime-50 mt-4 ml-8"
             variants={item}
           >
-            Hey, I&aposm Atharva a passionate  full-stack developer who thrives on building meaningful & useful web apps. I love turning bold ideas into real-world solutions currently building SaaS platforms. 
+            Hey, I&apos;m Atharva a passionate  full-stack developer who thrives on building meaningful & useful web apps. I love turning bold ideas into real-world solutions currently building SaaS platforms. 
             <br />
             Have an idea or want to build something ? DMs are always open!
           </motion.p>
@@ -127,12 +127,12 @@ export default function Hero() {
           </motion.div> */}
 
           {/* Social Links */}
-          <div className="flex space-x-4 mt-[-30px]">
+          <div className="flex space-x-4 mt-[-25px] py-2">
             <a
               href="https://github.com/atharvamhaske"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative group p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors transform transition-transform duration-200 hover:-translate-y-2"
+              className="relative group p-4 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors transform transition-transform duration-200 hover:-translate-y-2"
             >
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
@@ -144,7 +144,7 @@ export default function Hero() {
               href="https://linkedin.com/in/atharvaxdevs"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative group p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors transform transition-transform duration-200 hover:-translate-y-2"
+              className="relative group p-4 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors transform transition-transform duration-200 hover:-translate-y-2"
             >
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
@@ -156,7 +156,7 @@ export default function Hero() {
               href="https://twitter.com/AtharvaXDevs"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative group p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors transform transition-transform duration-200 hover:-translate-y-2"
+              className="relative group p-4 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors transform transition-transform duration-200 hover:-translate-y-2"
             >
               <Twitter className="h-5 w-5" />
               <span className="sr-only">Twitter</span>
@@ -167,7 +167,7 @@ export default function Hero() {
           </div>
 
           {/* Clock in the center */}
-          <div className="flex-1 flex justify-center mt-10">
+          <div className="flex-1 flex justify-center mt-[-12px] ">
             <Clock />
           </div>
         </motion.div>

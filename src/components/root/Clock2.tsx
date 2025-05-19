@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Hourglass, Globe } from "lucide-react";
+import {  Globe } from "lucide-react";
 
-export default function Clock({ className = "", showLocation = true }: { className?: string, showLocation?: boolean }) {
+export default function Clock2({ className = "", showLocation = true }: { className?: string, showLocation?: boolean }) {
   const [time, setTime] = useState(() => new Date());
 
   useEffect(() => {
@@ -16,11 +16,7 @@ export default function Clock({ className = "", showLocation = true }: { classNa
 
   return (
     <div className={`flex items-center gap-3 font-mono ${className}`}>
-      <Hourglass
-        size={20}
-        className="clock-icon text-black dark:text-white"
-        strokeWidth={2.5}
-      />
+      
       <span className="font-bold text-black dark:text-white">{formatted} <span className="text-base font-normal">IST</span></span>
       {showLocation && (
         <span className="flex items-center gap-1 ml-4 font-bold text-black dark:text-white">

@@ -309,3 +309,25 @@
 .techstack-corner.tr .arc { animation-delay: 0.5s; }
 .techstack-corner.br .arc { animation-delay: 1s; }
 .techstack-corner.bl .arc { animation-delay: 1.5s; }
+
+.blur-under-navbar {
+  position: relative;
+}
+.blur-under-navbar::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px; /* Adjust to navbar height */
+  z-index: 49;
+  pointer-events: none;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background: rgba(24, 24, 27, 0.15); /* fallback for dark */
+}
+@media (max-width: 768px) {
+  .blur-under-navbar::before {
+    height: 70px; /* Adjust for mobile navbar height if needed */
+  }
+}

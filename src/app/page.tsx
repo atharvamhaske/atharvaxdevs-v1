@@ -6,7 +6,7 @@ import WorkExperience from "@/components/home/work-experience";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Atharva | Portfolio",
+  title: "Atharva Mhaske",
   description: "Created by devsloka.in ",
 };
 
