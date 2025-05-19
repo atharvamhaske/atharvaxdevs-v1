@@ -35,9 +35,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <div className="blur-under-navbar">
-          {children}
-        </div>
+        {children}
         <Toaster />
         <Footer />
       </body>
