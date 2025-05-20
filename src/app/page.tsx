@@ -7,7 +7,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Atharva Mhaske",
-  description: "Created by devsloka.in ",
+  description: "Created by atharva ",
 };
 
 export default function Home() {

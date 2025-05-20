@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Atharva Mhaske",
-  description: "Created by devsloka.in ",
+  description: "Created by atharva ",
 };
 
 export default function RootLayout({
