@@ -23,7 +23,7 @@ const experiences = [
     skills: ["React", "TypeScript", "Python", "Next.Js", "Node.Js", "Tailwind CSS", "Framer Motion", "APIs", "Metamask"],
     description:
       "Web app which connects doctors and patients which makes all Paper work to almost zero, Secure user authentication using blockchain and profile management. Use of On-chain  using HyperLedger Fabric.",
-    repoUrl: "https://github.com/atharvamhaske/eHealthWave"
+    repoUrl: "https://github.com/atharvamhaske/E-Healthwave"
   },
 
   {
@@ -35,7 +35,7 @@ const experiences = [
     skills: [ "JavaScript", "NodeJs", "Chalk", "Bash",  "zShell", "npm package", ],
     description:
      "A beautiful terminal-based portfolio with interactive menu, built with Node.js, Package available on npm packages named atharva-portfolio-cli,.",
-    repoUrl: "https://github.com/atharvamhaske/atharva-portfolio-cli"
+    repoUrl: "https://github.com/atharvamhaske/atharva-portfoilio-cli"
   },
 ];
 
