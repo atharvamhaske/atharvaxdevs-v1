@@ -62,7 +62,7 @@ export default function Navbar() {
               />
               <AvatarFallback></AvatarFallback>
             </Avatar>
-            <span className="font-['Nothing_You_Could_Do'] hidden md:text-2xl">ATHARVA</span>
+            <span className="font-['Nothing_You_Could_Do'] text-xs md:text-2xl">ATHARVA</span>
           </Link>
 
           {/* Clock in the center */}
