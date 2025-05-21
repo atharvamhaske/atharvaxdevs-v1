@@ -15,12 +15,12 @@ export default function Clock2({ className = "", showLocation = true }: { classN
     .toLocaleTimeString("en-IN", { hour12: false, timeZone: "Asia/Kolkata" });
 
   return (
-    <div className={`flex items-center gap-3 font-mono ${className}`}>
+    <div className={`flex items-center gap-1 md:gap-3 font-mono text-xs md:text-base ${className}`}>
       
-      <span className="font-bold text-black dark:text-white">{formatted} <span className="text-base font-normal">IST</span></span>
+      <span className="font-bold text-black dark:text-white">{formatted} <span className="text-[10px] md:text-base font-normal">IST</span></span>
       {showLocation && (
-        <span className="flex items-center gap-1 ml-4 font-bold text-black dark:text-white">
-          <Globe size={18} className="inline-block mb-0.5" />
+        <span className="flex items-center gap-1 ml-2 md:ml-4 font-bold text-black dark:text-white">
+          <Globe size={14} className="inline-block mb-0.5 md:w-[18px] md:h-[18px]" />
           Pune,India
         </span>
       )}
