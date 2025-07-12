@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ArrowLeft, Mail, MapPin, Phone, Twitter } from "lucide-react";
+import { ArrowLeft, Mail, MapPin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Loader from "@/components/ui/Loader";
