@@ -26,7 +26,7 @@ export default function Hero() {
       opacity: 1,
       y: 0,
       filter: "blur(0px)",
-      transition: { duration: 0.8, ease: "easeOut" },
+      transition: { duration: 0.8 },
     },
   };
 
@@ -83,7 +83,7 @@ export default function Hero() {
 
           {/* Brief Description */}
           <motion.p
-            className="max-w-[700px] text-m md:text-m font-mono !text-gray-400 dark:text-lime-50 mt-4 ml-6"
+            className="max-w-[700px] text-m md:text-m font-mono !text-gray-600 dark:text-lime-50 mt-4 ml-6"
             variants={item}
           >
             Hey, I&apos;m Atharva a passionate full-stack developer who loves to build things, Currently open for remote work and freelance projects.
