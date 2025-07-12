@@ -1,5 +1,8 @@
 import BottomHero from "@/components/home/bottom-hero";
 
+import { AppleHelloEnglishEffect, AppleHelloVietnameseEffect } from "@/components/apple-hello-effect";
+
+
 import Hero from "@/components/home/hero";
 
 import WorkExperience from "@/components/home/work-experience";
@@ -14,6 +17,7 @@ export default function Home() {
   return (
     <>
       <main className="min-h-screen mx-auto container">
+        {/* <AppleHelloEnglishEffect className="" /> */}
         <Hero />
         <WorkExperience />
         <BottomHero />

@@ -57,7 +57,7 @@ const Contact = () => {
                   <h3 className="font-medium">Phone</h3>
                   <div className="flex items-center gap-2 mt-2">
                     <a href="tel:+91XXXXXXXXX" className="hover-underline">
-                      +91 9657137520
+                      +91 9657XXXXXX
                     </a>
                   </div>
                 </div>
