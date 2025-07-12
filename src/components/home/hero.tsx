@@ -31,7 +31,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative pt-24 pb-12 md:pt-32 md:pb-20 overflow-hidden">
+    <section className="relative pt-24 pb-12 md:pt-60 md:pb-20 overflow-hidden">
       {/* Enhanced Background Texture */}
       <div className="absolute inset-0 z-0">
         {/* Grid Pattern */}
@@ -83,12 +83,14 @@ export default function Hero() {
 
           {/* Brief Description */}
           <motion.p
-            className="max-w-[700px] text-m md:text-m font-mono !text-gray-400 dark:text-lime-50 mt-4 ml-8"
+            className="max-w-[700px] text-m md:text-m font-mono !text-gray-400 dark:text-lime-50 mt-4 ml-6"
             variants={item}
           >
-            Hey, I&apos;m Atharva a passionate  full-stack developer who thrives on building meaningful & useful web apps. I love turning bold ideas into real-world solutions currently building SaaS platforms. 
+            Hey, I&apos;m Atharva a passionate full-stack developer who loves to build things, Currently open for remote work and freelance projects.
             <br />
-            Have an idea or want to build something ? DMs are always open!
+            In my spare time,i enjoy listening to loud music and touching grass.
+            <br />
+            
           </motion.p>
 
           {/* Tagline */}

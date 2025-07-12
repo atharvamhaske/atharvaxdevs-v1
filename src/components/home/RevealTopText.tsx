@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const lines = [
-  "0xDeveloper",
+
   "100xLearner",
   "AtharvaXDevs"
 ];

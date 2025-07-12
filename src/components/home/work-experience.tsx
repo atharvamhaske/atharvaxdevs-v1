@@ -47,7 +47,7 @@ export default function WorkExperience() {
     <section className="py-16 md:py-25 relative overflow-hidden">
       {/* Background Elements */}
 
-      <div className="container px-4 md:px-6 relative z-10">
+      <div className="container px-4 md:px-6 relative z-10 md:mt-15">
         <div
           ref={ref}
           className="space-y-12"

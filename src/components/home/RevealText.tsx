@@ -46,7 +46,7 @@ export default function RevealText() {
         if (i % 2 === 1) {
           // styled segment
           rendered.push(
-            <span key={i} className="font-mono text-gray-00 opacity-60 dark:text-white px-2 py-0.5 mx-1 inline-block align-middle">
+            <span key={i} className="font-mono text-gray-00 opacity-60 dark:text-white px-2  mx-auto inline-block align-middle">
               {seg.slice(0, charIdx - acc)}
             </span>
           );
@@ -58,7 +58,7 @@ export default function RevealText() {
         // Fully revealed segment
         if (i % 2 === 1) {
           rendered.push(
-            <span key={i} className="font-mono text-gray-800 opacity-60 dark:text-white px-2 py-0.5 mx-1 inline-block align-middle">
+            <span key={i} className="font-mono text-gray-800 opacity-60 dark:text-white px-2 py-0.5 mx-auto inline-block align-middle">
               {seg}
             </span>
           );
