@@ -1,7 +1,5 @@
 import BottomHero from "@/components/home/bottom-hero";
 
-import { AppleHelloEnglishEffect, AppleHelloVietnameseEffect } from "@/components/apple-hello-effect";
-
 
 import Hero from "@/components/home/hero";
 
