@@ -49,19 +49,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="bg-secondary dark:bg-accent p-3 rounded-full">
-                  <Phone className="h-5 w-5" />
-                </div>
-                <div>
-                  <h3 className="font-medium">Phone</h3>
-                  <div className="flex items-center gap-2 mt-2">
-                    <a href="tel:+91XXXXXXXXX" className="hover-underline">
-                      +91 9657XXXXXX
-                    </a>
-                  </div>
-                </div>
-              </div>
+              {/* Phone section removed for privacy */}
 
               {/* Twitter DM Row - styled like other contact items */}
               <div className="flex items-start space-x-4">
