@@ -9,7 +9,7 @@ import RevealText from "./RevealText";
 import RevealTopText from "./RevealTopText";
 
 export default function Hero() {
-  // Animation variants
+  // Animation variants - Updated for deployment fix
   const container = {
     hidden: { opacity: 0 },
     show: {
